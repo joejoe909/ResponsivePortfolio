@@ -1,0 +1,113 @@
+
+body
+{
+    background-color: darkgray;
+}
+
+.container
+{
+    background-color:white;
+    box-shadow: inset 0 0 1px 1px black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin:2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
+p{
+    margin-bottom: 2%;
+}
+
+.navBarBrandMod
+{
+    background-color: black;
+    padding:0px;
+}
+
+.giveWhite
+{
+    color: white;
+}
+
+
+.floatImg
+{
+ float: left;   
+ margin-right: 15px; 
+ margin-left: 15px;
+}
+
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color:#3f6148;
+ }
+
+ .textHighlight{
+     background-color: white;
+     color: black;
+ }
+
+ @media screen and (max-width: 992px)
+  {
+    div.container
+     {
+        max-width: 60%;
+        max-height: 90%;
+     }
+     .col_size
+      {
+         width: 50.5%;
+      }
+
+   }
+    
+    
+
+    @media screen and (max-width: 768px)
+    {
+    
+        div.container {
+            max-width: 38.5%;
+            max-height: 90%;
+        }
+
+        .col_size
+        {
+            width: 20.5%;
+        }
+
+    }
+
+    @media screen and (max-width: 400px)
+    {
+    
+        div.container
+        {
+            max-width: 44%;
+            max-height: 80%;
+        }
+
+      .col_size
+      {
+            width: 40.5%;
+       }
+
+    }
+
+    
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+
+body{
+    background-color: darkgray;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color:#3f6148;
+ }
+
+
+ /*This adds some padding to the upper left label*/
+ .textPadding
+{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+    
+
+
+
+
+
+
+
+
