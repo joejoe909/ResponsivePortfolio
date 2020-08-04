@@ -7,6 +7,8 @@ I was able to make use of the bootstrap framework via the documentation. For the
 
 Each page index.html, contact.html and portfolio.html each utilizes it's own respective css file index_style.css, contact_style.css and portfolio_style.css
 
+You can view the page in work here https://joejoe909.github.io/ResponsivePortfolio/
+
 
 
 
