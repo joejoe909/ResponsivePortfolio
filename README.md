@@ -1,2 +1,4 @@
 # ResponsivePortfolio
-A Responsive Portfolio Design
+This is my Responsive Layout useing HTML, CSS and Bootstrap.
+
+
