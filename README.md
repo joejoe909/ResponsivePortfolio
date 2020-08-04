@@ -1,4 +1,6 @@
-# ResponsivePortfolio
+# ResponsivePortfolio 
+by Joe Farrish.
+
 This is my Responsive Layout useing HTML, CSS and Bootstrap.
 
 I was able to make use of the bootstrap page via the documentation. For the Image grid I disected the Albums example that comes with the bootstrap framework. 
