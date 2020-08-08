@@ -22,5 +22,47 @@ footer {
 
 
 
+@media screen and (min-width: 1500px) {
+  /* The body's bg color will be #333 */
+    .placeJT{
+       margin-left: 1rem!important;
+       width: 88%;
+    }
+
+ 
+}
+
+
+@media screen and (max-width: 992px) {
+  /* The body's bg color will be #333 */
+    .placeJT{
+       margin-left: 0rem!important;
+       width: 99%;
+    }
+
+ 
+}
+
+
+@media screen and (max-width: 768px) {
+  /* The body's bg color will be #333 */
+    .placeJT{
+       margin-left: 1rem!important;
+       width: 96%;
+    }
+
+ 
+}
+
+@media screen and (max-width: 400px) {
+  /* The body's bg color will be #333 */
+    .placeJT{
+        margin-left: 0rem;
+        
+    }
+
+ 
+}
+
 
 
