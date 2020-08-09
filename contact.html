@@ -48,45 +48,49 @@
     </div>
     <!--End of NavBar-->
     <main role="main">
-        <section class="mt-2" alt="this contains and pushes the main content in/our when you resize">
+        <section class="mt-1" alt="this contains and pushes the main content in/our when you resize">
 
-            <section class="jumbotron text-left bg-white mx-2 border border-dark">
+            <section class="jumbotron text-left myAdj">
 
-                <div class="container" alt="Main Container that holds the contact form">
+                <div class="container border rounded border border-dark bg-white"
+                    alt="Main Container that holds the contact form">
                     <!--Main Container-->
+                    <div class="container">
+                        <h1 class = "ml-4 mt-4">Contact.</h1>
 
-                    <h1 class="ml-4">Contact.</h1>
-
-                    <div class="row">
-                        <div class="col-md-12 pl-4">
-                            <hr>
+                        <div class="row">
+                            <div class="col-md-12 pl-4">
+                                <hr>
+                            </div>
                         </div>
+                            <div class="col-dm-12 mb-4">
+                                <section alt="Please Enter your information and a message">
+                                    <form>
+                                        <div class="form-group" alt="Enter Your Name">
+                                            <label for="exampleInputName">Name</label>
+                                            <input type="name" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+
+                                        </div>
+
+                                        <div class="form-group" alt="Enter your email address">
+                                            <label for="exampleInputEmail1">Email Address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+
+                                        </div>
+                                        <div class="form-group" alt="Enter your message you would like to communicate">
+                                            <label for="exampleFormControlTextarea1">Message</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        </div>
+
+                                        <button type="submit" class="btn btn-dark">Submit</button>
+                                    </form>
+                                </section>
+                            </div>
                     </div>
-                    <section alt="Please Enter your information and a message">
-                        <form>
-                            <div class="form-group" alt="Enter Your Name">
-                                <label for="exampleInputName">Name</label>
-                                <input type="name" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
-
-                            </div>
-
-                            <div class="form-group" alt="Enter your email address">
-                                <label for="exampleInputEmail1">Email Address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
-
-                            </div>
-                            <div class="form-group" alt="Enter your message you would like to communicate">
-                                <label for="exampleFormControlTextarea1">Message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-
-                            <button type="submit" class="btn btn-dark">Submit</button>
-                        </form>
-                    </section>
-                </div>
                 <!--End Main Container-->
+                </div.row>
             </section>
         </section>
     </main>
